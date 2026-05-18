@@ -1,7 +1,7 @@
 # smoke-tests/test_e2e.py
 import pytest, requests, time, os
 
-BASE_URL = "http://localhost:8000"
+BASE_URL = "http://localhost:8080"
 VLLM_URL = os.environ.get("VLLM_NGROK_URL", "")
 
 # ── Test 1: Happy Path — Full Inference Request ───────────────
